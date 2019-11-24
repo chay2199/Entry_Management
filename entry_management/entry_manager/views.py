@@ -14,7 +14,7 @@ def home(request):
     return render(request, 'home.html')
 
 
-def post(request):
+def checkin(request):
     form = CheckInForm(request.POST)
     if form.is_valid():
         now = datetime.now()
@@ -54,7 +54,7 @@ def success_view(request):
     return render(request, "check_out.html")
 
 
-def user_login(request):
+def checkout(request):
     now = datetime.now()
     outTime = now.strftime("%H:%M:%S")
     latest_details = CheckIn.objects.values_list()[len(CheckIn.objects.values_list())-1]
