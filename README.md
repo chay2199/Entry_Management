@@ -21,4 +21,4 @@ few lines of SMS code using TWILIO is commented out just for a reference.
 
 ## Sample Image
 
-![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-23-36.png)
+![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-32-40.png)
