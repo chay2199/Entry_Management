@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div style="text-align: center;"><h4>You have been checked in successfully!</h4></div>
+<div class="wrap">
+    <a class="button-custom" href="{% url 'loop' %}">
+        Check Out
+    </a>
+  </div>
+{% endblock content %}

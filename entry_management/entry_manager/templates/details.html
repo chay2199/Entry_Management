@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="wrap">
+    <form action="" method="post">
+    Visitor's Details
+        {% csrf_token %}
+      <div class="fields"> Name <br><br> {{ form.visitor_name }}</div>
+      <div class="fields"> Email <br><br> {{ form.visitor_email }}</div>
+      <div class="fields"> Phone <br><br> {{ form.visitor_phone }}</div>
+    Host's Details
+      <div class="fields"> Name <br><br> {{ form.host_name }}</div>
+      <div class="fields"> Email <br><br> {{ form.host_email }}</div>
+      <div class="fields"> Phone <br><br> {{ form.host_phone }}</div>
+      <input class="button-custom" type="submit" value="REGISTER">
+    </form>
+  </div>
+{% endblock content %}
