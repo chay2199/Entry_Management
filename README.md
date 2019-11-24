@@ -18,3 +18,7 @@ Note: This application is just a prototype. It doesn't actually send the sms and
 it just shows them on the console. You can use apps like TWILIO and EmailGun etc to actually send sms and emails. Infact a
 few lines of SMS code using TWILIO is commented out just for a reference.
 
+
+## Sample Image
+
+![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-23-36.png)
