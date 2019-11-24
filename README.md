@@ -18,7 +18,13 @@ Note: This application is just a prototype. It doesn't actually send the sms and
 it just shows them on the console. You can use apps like TWILIO and EmailGun etc to actually send sms and emails. Infact a
 few lines of SMS code using TWILIO is commented out just for a reference.
 
+# Installation
+This is a django application. To install and run the app, follow the steps given below:
+1. `pip install django` (install django-version > 2)
+2. `cd entry_management`
+3. `python manage.py runserver`
+4. Open 127.0.0.1:8000 on your web-browser.
 
 ## Sample Image
 
-![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-23-36.png)
+![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-32-40.png)
