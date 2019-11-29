@@ -1,5 +1,5 @@
 # Entry Manager
-This is an application, which can capture the Name, email address, phone no of the visitor and
+This is an application which can capture the Name, email address, phone no of the visitor and
 the same information for the host on the front end.
 At the back end, once the user enters the information in the form, the backend stores all of
 the information with time stamp of the entry.
