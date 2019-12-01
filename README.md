@@ -25,6 +25,13 @@ This is a django application. To install and run the app, follow the steps given
 3. `python manage.py runserver`
 4. Open 127.0.0.1:8000 on your web-browser.
 
+# Approach
+1) First the visitor has to signup or login.
+2) He can then checkin at the portal, as soon as he checks in the timestamp is noted.
+3) The user has to fill a form with his/her details and the of the host he/she wants to visit. After which the details of 
+   the vistior is send to the host using an email/sms.
+4) The portal keeps on showing a checkout button. Once the visitor checks out. He is emailed the details of his visit.
+
 ## Sample Image
 
 ![Example_Image](https://raw.githubusercontent.com/chay2199/Entry_Management/master/Screenshot%20from%202019-11-24%2006-32-40.png)
