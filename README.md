@@ -29,7 +29,7 @@ This is a django application. To install and run the app, follow the steps given
 1) First the visitor has to signup or login.
 2) He can then checkin at the portal, as soon as he checks in the timestamp is noted.
 3) The user has to fill a form with his/her details and the of the host he/she wants to visit. After which the details of 
-   the vistior is send to the host using an email/sms. (Please check condole/terminal at this stage)
+   the vistior is send to the host using an email/sms. (Please check console/terminal at this stage)
 4) The portal keeps on showing a checkout button. Once the visitor checks out. He is emailed the details of his visit. (Again check console/terminal)
 
 ## Sample Image
